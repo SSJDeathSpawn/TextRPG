@@ -1,0 +1,11 @@
+E:\Adikesavan\Projects\Python\Projects\TextRPG\bin\Debug\netcoreapp3.1\TextRPG.exe
+E:\Adikesavan\Projects\Python\Projects\TextRPG\bin\Debug\netcoreapp3.1\TextRPG.deps.json
+E:\Adikesavan\Projects\Python\Projects\TextRPG\bin\Debug\netcoreapp3.1\TextRPG.runtimeconfig.json
+E:\Adikesavan\Projects\Python\Projects\TextRPG\bin\Debug\netcoreapp3.1\TextRPG.runtimeconfig.dev.json
+E:\Adikesavan\Projects\Python\Projects\TextRPG\bin\Debug\netcoreapp3.1\TextRPG.dll
+E:\Adikesavan\Projects\Python\Projects\TextRPG\bin\Debug\netcoreapp3.1\TextRPG.pdb
+E:\Adikesavan\Projects\Python\Projects\TextRPG\obj\Debug\netcoreapp3.1\TextRPG.csprojAssemblyReference.cache
+E:\Adikesavan\Projects\Python\Projects\TextRPG\obj\Debug\netcoreapp3.1\TextRPG.AssemblyInfoInputs.cache
+E:\Adikesavan\Projects\Python\Projects\TextRPG\obj\Debug\netcoreapp3.1\TextRPG.AssemblyInfo.cs
+E:\Adikesavan\Projects\Python\Projects\TextRPG\obj\Debug\netcoreapp3.1\TextRPG.dll
+E:\Adikesavan\Projects\Python\Projects\TextRPG\obj\Debug\netcoreapp3.1\TextRPG.pdb
