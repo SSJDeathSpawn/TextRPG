@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Generic;
 
-namespace TextRPG{ 
-    class Stats: BaseStats {
+namespace TextRPG.Data{ 
+    public class Stats: BaseStats {
         public int hp;
         public int maxHp;
         public int mp;

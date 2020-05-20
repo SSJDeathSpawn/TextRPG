@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Generic;
 
-namespace TextRPG {
-    abstract class BaseStats {
+namespace TextRPG.Data {
+    public abstract class BaseStats {
         public int str;
         public int dex;
         public int wis;
