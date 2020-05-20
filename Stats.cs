@@ -8,7 +8,7 @@ namespace TextRPG{
         public int mp;
         public int maxMp;
 
-        public void (BaseStats newStats) {
+        public override void onStatChange(BaseStats newStats) {
             if (con != newStats.con) {
                 hp += (newStats.con - con) * 50;
             }
