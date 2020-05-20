@@ -8,7 +8,7 @@ namespace TextRPG
         {
             Console.WriteLine("Hello World!");
             Console.WriteLine("Second Line!");
-            Console.WriteLine("I edited this, YAY!")
+            Console.WriteLine("I edited this, YAY!");
         }
     }
 }
