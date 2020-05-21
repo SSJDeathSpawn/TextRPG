@@ -12,5 +12,9 @@ namespace TextRPG.Location {
             this.enemies = enemies;
         }
 
+        public override void register() {
+            base.register();
+        }
+
     }
 }

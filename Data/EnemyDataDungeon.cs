@@ -8,7 +8,7 @@ namespace TextRPG.Data{
         public List<Mob> starterDungeon = new List<Mob>();
 
         public EnemyDataDungeon() {
-
+            this.addEverything();
         }
 
         public void addEverything() {
