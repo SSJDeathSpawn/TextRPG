@@ -11,5 +11,14 @@ namespace TextRPG.Data {
         public int wil;
 
         public abstract void onStatChange(BaseStats newStats);
+
+        public BaseStats(int str, int dex, int wis, int chr, int con, int wil) {
+            this.str = str;
+            this.dex = dex;
+            this.wis = wis;
+            this.chr = chr;
+            this.con = con;
+            this.wil = wil;
+        }
     }
 }

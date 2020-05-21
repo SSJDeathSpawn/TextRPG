@@ -24,5 +24,12 @@ namespace TextRPG.Data{
             con = newStats.con;
             wil = newStats.wil;
         }
+
+        public Stats(int str, int dex, int wis, int chr, int con, int wil, int hp, int mp) : base(str, dex, wis, chr, con, wil) {
+            this.hp = hp;
+            maxHp = this.con * 50;
+            this.mp = mp;
+            maxMp = this.wil * 40;
+        }
     }
 }

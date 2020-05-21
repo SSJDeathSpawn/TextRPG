@@ -8,6 +8,7 @@ namespace TextRPG {
     class Program {
         public static EnemyDataDungeon enemyData;
         public static Registry registry;
+        
         static void Main(string[] args) {
             enemyData = new EnemyDataDungeon();
             registry = new Registry();
