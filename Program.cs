@@ -12,9 +12,6 @@ namespace TextRPG {
         static void Main(string[] args) {
             enemyData = new EnemyDataDungeon();
             registry = new Registry();
-            Console.WriteLine("Hello World!");
-            Console.WriteLine("Second Line!");
-            Console.WriteLine("I edited this, YAY!");
         }
     }
 }
