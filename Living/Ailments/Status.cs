@@ -5,12 +5,12 @@ namespace TextRPG.Living.Ailments {
     public class Status {
         public StatusType statusType;
         public string name;
-        //public delegate void Worker(Character chara, int modifier);
-        //TODO Research Func and add it 
-        public Status(string name, StatusType statusType /*,doWork*/) {
+        public Action<Character,int> doWork;
+        
+        public Status(string name, StatusType statusType Action<Character, int> doWork) {
             this.name = name;
             this.statusType = statusType;
-            //Worker dowork = new Worker(doWork);
+            this.doWork = doWork;
         }
     }
 
