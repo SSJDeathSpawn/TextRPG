@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace TextRPG.Data {
+namespace TextRPG.Data.Statistics {
     public abstract class BaseStats {
         public int str;
         public int dex;

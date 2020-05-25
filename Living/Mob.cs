@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using TextRPG.Data.Statistics;
 using TextRPG.Data;
 
 namespace TextRPG.Living {
@@ -9,9 +10,13 @@ namespace TextRPG.Living {
 
         public static Race monster = new Race();
 
-        public Mob(string name, int a, int b, string desc, Stats stats): base(name, monster, stats) {
-            this.lvlRange = (a,b);
+        public Mob(string name, int lvlRange1, int lvlRange2, string desc, Stats stats): base(name, monster, stats) {
+            this.lvlRange = (lvlRange1,lvlRange2);
             this.desc = desc;
+        }
+
+        public override void register() {
+            base.register();
         }
     }
 }
