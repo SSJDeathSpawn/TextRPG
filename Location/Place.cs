@@ -5,16 +5,17 @@ using TextRPG.Data.Registry;
 namespace TextRPG.Location {
     public class Place: IRegistryItem {
         public string name;
-        public List<Place> contains;
+        public Connection connection;
+        public string desc;
         
-        public Place(String name, List<Place> contains) {
+        public Place(String name, Connection connection) {
             this.name = name;
-            this.contains = contains;
+            this.connection = connection;;
         }
 
         public Place(String name) {
             this.name = name;
-            this.contains = new List<Place>(); 
+            this.connection = new Connection(null); 
         }   
 
         public virtual void register() {
