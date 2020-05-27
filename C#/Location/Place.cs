@@ -8,14 +8,16 @@ namespace TextRPG.Location {
         public Connection connection;
         public string desc;
         
-        public Place(String name, Connection connection) {
+        public Place(String name, Connection connection, string desc) {
             this.name = name;
-            this.connection = connection;;
+            this.connection = connection;
+            this.desc = desc;
         }
 
-        public Place(String name) {
+        public Place(String name, string desc) {
             this.name = name;
-            this.connection = new Connection(null); 
+            this.connection = new Connection(null);
+            this.desc = desc; 
         }   
 
         public virtual void register() {

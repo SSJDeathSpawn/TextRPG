@@ -12,6 +12,8 @@ namespace TextRPG {
         static void Main(string[] args) {
             enemyData = new EnemyDataDungeon();
             registry = new Registry();
+            Places.init();
+            Console.ReadLine();
         }
     }
 }

@@ -7,7 +7,7 @@ namespace TextRPG.Location {
         public int recommededLvl;
         public List<Mob> enemies;
 
-        public Dungeon(string name, int recommededLvl, List<Mob> enemies): base(name) {
+        public Dungeon(string name, int recommededLvl, List<Mob> enemies, string desc): base(name, desc) {
             this.recommededLvl = recommededLvl;
             this.enemies = enemies;
         }
