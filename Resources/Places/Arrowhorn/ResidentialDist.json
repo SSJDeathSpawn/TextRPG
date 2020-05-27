@@ -1,0 +1,8 @@
+{
+    "name": "Residential District",
+    "connection": {
+        "west": "Your Place",
+        "north": "Main Street, Arrow Horn"
+    },
+    "description": "It's where all the residence stay. The kingdom treats us fine but as worse the slums have it. \nWe at least get work and are not in chaos. \nYou feel fairly acquainted with this place."
+}
