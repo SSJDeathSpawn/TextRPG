@@ -38,5 +38,15 @@
             ],
             "problemMatcher": "$msCompile"
         }
+        {
+            "label": "run",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "run",
+                "${workspaceFolder}/TextRPG.csproj",
+            ],
+            "problemMatcher": "$msCompile"
+        },
     ]
 }

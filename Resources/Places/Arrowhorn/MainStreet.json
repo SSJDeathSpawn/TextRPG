@@ -1,7 +1,7 @@
 {
-    "name": "Main Street, Arrow Horn",
-    "connection": {
-        "east": "Adventurer's Guild, Arrow Horn"
+    "Name": "Main Street, Arrow Horn",
+    "Connection": {
+        "East": "Adventurer's Guild, Arrow Horn"
     },
-    "description": "This is a road connecting all of the major disctricts of the kingdom. If you wanted to travel anywhere outside your district, you would use this road. \nYou see familiar people. You feel a sense of familiarity with the place."
+    "Description": "This is a road connecting all of the major disctricts of the kingdom. If you wanted to travel anywhere outside your district, you would use this road. \nYou see familiar people. You feel a sense of familiarity with the place."
 }

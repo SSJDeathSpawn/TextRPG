@@ -35,15 +35,15 @@ namespace TextRPG.Location {
 
             Connection toReturn = new Connection(null);
             foreach(Place p in all) {
-                if (toReturn.north==default(Place)) toReturn.north = (conn.North == p.name)?p:null;
-                if (toReturn.south==default(Place))toReturn.south = (conn.South == p.name)?p:null;
-                if (toReturn.east==default(Place))toReturn.east = (conn.East == p.name)?p:null;
-                if (toReturn.west==default(Place))toReturn.west = (conn.West == p.name)?p:null;
-                if (toReturn.outside==default(Place))toReturn.outside = (conn.Outside == p.name)?p:null;
-                if (toReturn.ne==default(Place))toReturn.ne = (conn.ne == p.name)?p:null;
-                if (toReturn.nw==default(Place))toReturn.nw = (conn.nw == p.name)?p:null;
-                if (toReturn.se==default(Place))toReturn.se = (conn.se == p.name)?p:null;
-                if (toReturn.sw==default(Place))toReturn.sw = (conn.sw == p.name)?p:null;
+                if (toReturn.north==null) toReturn.north = (conn.North == p.name)?p:null;
+                if (toReturn.south==null)toReturn.south = (conn.South == p.name)?p:null;
+                if (toReturn.east==null)toReturn.east = (conn.East == p.name)?p:null;
+                if (toReturn.west==null)toReturn.west = (conn.West == p.name)?p:null;
+                if (toReturn.outside==null)toReturn.outside = (conn.Outside == p.name)?p:null;
+                if (toReturn.ne==null)toReturn.ne = (conn.ne == p.name)?p:null;
+                if (toReturn.nw==null)toReturn.nw = (conn.nw == p.name)?p:null;
+                if (toReturn.se==null)toReturn.se = (conn.se == p.name)?p:null;
+                if (toReturn.sw==null)toReturn.sw = (conn.sw == p.name)?p:null;
             }
             return toReturn;
         }

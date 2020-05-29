@@ -5,10 +5,10 @@ using TextRPG.Data.Statistics;
 namespace TextRPG.Objects {
     public class Items {
 
-        public static Item basicHerb = new Item("Basic Herb", 20, true, ItemRarity.NORMAL, basic_herb);
-
+        public static Item basicHerb = new Item("Basic Herb", 20, ItemRarity.NORMAL, basic_herb, "A simple herb that doesn't look very appetising. It can supposedly heal wounds, (+5 HP < MaxHP)");
 
         //Methods
+
         private static void basic_herb(Character chara) {
             Stats stat = chara.stats; 
             if (stat.hp < (stat.maxHp - 9)){

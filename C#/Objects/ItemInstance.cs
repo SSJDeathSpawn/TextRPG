@@ -7,10 +7,7 @@ namespace TextRPG.Objects {
 
         public ItemInstance(Item item, int amount){
             this.item = item;
-            if (amount < item.stackSize)
-                this.amount = amount;
-            else
-                this.amount = item.stackSize;
+            this.amount = (amount < item.stackSize)? amount: item.stackSize;
         }
 
     }
