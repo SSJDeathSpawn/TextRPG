@@ -10,13 +10,11 @@ namespace TextRPG.Living {
     public class Character: IRegistryItem {
         public string name;
         public Race race;
-        public Stats stats;
         public Place currentLocation;
 
-        public Character(string name, Race race, Stats stats) {
+        public Character(string name, Race race) {
             this.name = name;
             this.race = race;
-            this.stats = stats;
         }
 
         public virtual void register() {

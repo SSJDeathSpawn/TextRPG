@@ -9,7 +9,7 @@ namespace TextRPG.Objects {
 
         //Methods
 
-        private static void basic_herb(Character chara) {
+        private static void basic_herb(CharacterUpgraded chara) {
             Stats stat = chara.stats; 
             if (stat.hp < (stat.maxHp - 9)){
                 stat.hp += 10;

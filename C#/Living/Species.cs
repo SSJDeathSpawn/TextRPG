@@ -9,7 +9,7 @@ namespace TextRPG.Living {
         public List<string> extendedNames;
         public List<Mob> madeMobs = new List<Mob>();
 
-        public Species(string commonName, List<string> extendedNames, List<Stats> stats, List<(int,int)> lvlRanges, List<string> descs) {
+        public Species(string commonName, List<string> extendedNames, List<AttackStats> stats, List<(int,int)> lvlRanges, List<string> descs) {
             this.commonName = commonName;
             this.extendedNames = extendedNames;
 
