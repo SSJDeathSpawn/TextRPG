@@ -4,8 +4,8 @@ using TextRPG.Living;
 
 namespace TextRPG.Story {
     public class QuestLine {
-        List<Quest> quests;
-        Character npc;
+        List<Quest> quests { get; set; }
+        Character npc { get; set; }
 
         public QuestLine(List<Quest> quests, Character npc) {
             this.quests = quests;

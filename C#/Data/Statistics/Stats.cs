@@ -3,10 +3,10 @@ using System.Collections.Generic;
 
 namespace TextRPG.Data.Statistics { 
     public class Stats: BaseStats {
-        public int hp;
-        public int maxHp;
-        public int mp;
-        public int maxMp;
+        public int hp { get; set; }
+        public int maxHp { get; set; }
+        public int mp { get; set; }
+        public int maxMp { get; set; }
 
         public Stats(int str, int dex, int wis, int chr, int con, int wil, int hp, int mp) : base(str, dex, wis, chr, con, wil) {
             this.hp = hp;

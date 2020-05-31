@@ -2,8 +2,8 @@ using System;
 
 namespace TextRPG.Objects {
     public class ItemInstance {
-        public Item item;
-        public int amount;
+        public Item item { get; set; }
+        public int amount { get; set; }
 
         public ItemInstance(Item item, int amount){
             this.item = item;

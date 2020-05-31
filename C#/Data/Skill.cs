@@ -3,8 +3,8 @@ using System.Collections.Generic;
 
 namespace TextRPG.Data {
     public abstract class Skill {
-        public SkillType skillType;
-        public string name;
+        public SkillType skillType { get; set; }
+        public string name { get; set; }
 
         public Skill(string name, SkillType skillType) {
             this.name = name;

@@ -1,7 +1,7 @@
 namespace TextRPG.Living.Ailments {
     public class StatusInstance{
-        public Status status;
-        public int modifier;
+        public Status status { get; set; }
+        public int modifier { get; set; }
         public StatusInstance(Status status, int modifier) {
             this.status = status;
             this.modifier = modifier;

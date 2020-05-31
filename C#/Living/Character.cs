@@ -8,9 +8,9 @@ using TextRPG.Data.Registry;
 namespace TextRPG.Living {
 
     public class Character: IRegistryItem {
-        public string name;
-        public Race race;
-        public Place currentLocation;
+        public string name { get; set; }
+        public Race race { get; set; }
+        public Place currentLocation { get; set; }
 
         public Character(string name, Race race) {
             this.name = name;

@@ -4,9 +4,9 @@ using TextRPG.Data.Registry;
 
 namespace TextRPG.Location {
     public class Place: IRegistryItem {
-        public string name;
-        public Connection connection;
-        public string desc;
+        public string name { get; set; }
+        public Connection connection { get; set; }
+        public string desc { get; set; }
         
         public Place(String name, Connection connection, string desc) {
             this.name = name;

@@ -5,9 +5,9 @@ using TextRPG.Data.Registry;
 
 namespace TextRPG.Living {
     public class Species: IRegistryItem {
-        public string commonName;
-        public List<string> extendedNames;
-        public List<Mob> madeMobs = new List<Mob>();
+        public string commonName { get; set; }
+        public List<string> extendedNames { get; set; }
+        public List<Mob> madeMobs { get; set; } = new List<Mob>();
 
         public Species(string commonName, List<string> extendedNames, List<AttackStats> stats, List<(int,int)> lvlRanges, List<string> descs) {
             this.commonName = commonName;

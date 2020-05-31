@@ -5,7 +5,7 @@ namespace TextRPG.Data.Registry
 {
     public class Registry
     {
-        public static List<IRegistryItem> registryItems;
+        public static List<IRegistryItem> registryItems { get; set; }
         
         public Registry() {
             registryItems = new List<IRegistryItem>();

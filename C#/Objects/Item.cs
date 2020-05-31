@@ -4,10 +4,10 @@ using TextRPG.Living;
 
 namespace TextRPG.Objects {
     public class Item: Interactable{
-        public int stackSize;
-        public bool oneUse;
-        public int timesUsable;
-        public ItemRarity itemRarity; 
+        public int stackSize { get; set; }
+        public bool oneUse { get; set; }
+        public int timesUsable { get; set; }
+        public ItemRarity itemRarity { get; set; }
 
         public Item(string name, int stackSize, ItemRarity itemRarity, Action<CharacterUpgraded> onUse, string desc): base(name, desc, onUse) {
             this.stackSize = stackSize;

@@ -4,8 +4,8 @@ using TextRPG.Living;
 
 namespace TextRPG.Location {
     public class Dungeon: Place {
-        public int recommededLvl;
-        public Dictionary<Mob, float> enemiesWithChance;
+        public int recommededLvl { get; set; }
+        public Dictionary<Mob, float> enemiesWithChance { get; set; }
 
         public Dungeon(string name, int recommededLvl, Dictionary<Mob, float> enemiesWithChance, string desc): base(name, desc) {
             this.recommededLvl = recommededLvl;

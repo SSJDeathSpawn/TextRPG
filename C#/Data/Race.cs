@@ -4,8 +4,8 @@ using TextRPG.Data.Registry;
 
 namespace TextRPG.Data {
     public class Race: IRegistryItem{
-        public string name;
-        public string desc;
+        public string name { get; set; }
+        public string desc { get; set; }
 
         public void register() {
             

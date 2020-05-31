@@ -5,8 +5,8 @@ using TextRPG.Data;
 
 namespace TextRPG.Living {
     public class Mob: CharacterUpgraded{
-        public (int, int) lvlRange;
-        public string desc;
+        public (int, int) lvlRange { get; set; } 
+        public string desc { get; set; }
 
         public static Race monster = new Race();
 

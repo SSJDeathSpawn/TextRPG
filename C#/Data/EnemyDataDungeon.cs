@@ -6,7 +6,7 @@ using TextRPG.Data.Statistics;
 
 namespace TextRPG.Data{
     public class EnemyDataDungeon{
-        public List<Mob> starterDungeon = new List<Mob>();
+        public List<Mob> starterDungeon { get; set; } = new List<Mob>();
 
         public EnemyDataDungeon() {
             this.addEverything();

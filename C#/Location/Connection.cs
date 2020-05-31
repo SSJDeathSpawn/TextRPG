@@ -3,9 +3,15 @@ using System.Collections.Generic;
 
 namespace TextRPG.Location {
     public class Connection {
-        public Place north, east, south, west;
-        public Place ne, nw, se, sw;
-        public Place outside;
+        public Place north { get; set; }
+        public Place east { get; set; }
+        public Place south { get; set; }
+        public Place west { get; set; }
+        public Place ne { get; set; }
+        public Place nw { get; set; }
+        public Place se { get; set; }
+        public Place sw { get; set; }
+        public Place outside { get; set; }
 
         public Connection(Place north, Place east, Place south, Place west, Place outside) {
             this.north = north;

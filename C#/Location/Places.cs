@@ -9,7 +9,7 @@ namespace TextRPG.Location{
     public class Places{
         static string path = Directory.GetCurrentDirectory() + "\\Resources\\Places\\";
 
-        public static List<Place> places = new List<Place>();
+        public static List<Place> places { get; set; } = new List<Place>();
 
         public static void init() {
             List<Place> tempPlace = new List<Place>();

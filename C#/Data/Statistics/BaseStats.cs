@@ -3,12 +3,12 @@ using System.Collections.Generic;
 
 namespace TextRPG.Data.Statistics {
     public abstract class BaseStats {
-        public int str;
-        public int dex;
-        public int wis;
-        public int chr;
-        public int con;
-        public int wil;
+        public int str { get; set; }
+        public int dex { get; set; }
+        public int wis { get; set; }
+        public int chr { get; set; }
+        public int con { get; set; }
+        public int wil { get; set; }
 
         public abstract void onStatChange(BaseStats newStats);
 
