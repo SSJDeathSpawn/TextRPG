@@ -18,7 +18,7 @@ namespace TextRPG.Location {
             foreach(float item in enemiesWithChance.Values) {
                 totalChance += item;
             }
-            if(totalChance > 1.0F) {
+            if(totalChance != 1.0F) {
                 float toMultiply;
                 toMultiply = totalChance/1.0F;
                 foreach(Mob mob in enemiesWithChance.Keys) {
@@ -31,7 +31,15 @@ namespace TextRPG.Location {
             List<Mob> toReturn = new List<Mob>();
             Random random = new Random();
             for (int i=0; i<number;i++) {
-                random.NextDouble()
+                float a = (float)random.NextDouble();
+                foreach (KeyValuePair<Mob, float> enemy in enemiesWithChance)
+                {
+                    a -= enemy.Value;
+                    if(a<=0) {
+                        toReturn.Add(enemy.Key);
+                        break;
+                    }
+                }
             } 
             return toReturn;
         }

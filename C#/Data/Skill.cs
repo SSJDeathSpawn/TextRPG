@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Generic;
 
-namespace TextRPG.Data.Moves {
-    public class Skill {
+namespace TextRPG.Data {
+    public abstract class Skill {
         public SkillType skillType;
         public string name;
 

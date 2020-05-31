@@ -2,7 +2,7 @@ using TextRPG.Living;
 using TextRPG.Data.Registry;
 
 namespace TextRPG.Story {
-    public class Quest: IRegistryItem {
+    public abstract class Quest: IRegistryItem {
         public Character npc;
         public QuestImportance importance;
         public QuestType type;

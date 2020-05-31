@@ -1,4 +1,5 @@
 using TextRPG.Living.Ailments;
+using TextRPG.Data;
 
 namespace TextRPG.Data.Moves {
     public class StatusSkill: Skill {
