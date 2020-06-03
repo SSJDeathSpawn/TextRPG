@@ -3,11 +3,10 @@ using System.Collections.Generic;
 using TextRPG.Data;
 using TextRPG.Data.Statistics;
 using TextRPG.Location;
-using TextRPG.Data.Registry;
 
 namespace TextRPG.Living {
 
-    public class Character: IRegistryItem {
+    public class Character {
         public string name { get; set; }
         public Race race { get; set; }
         public Place currentLocation { get; set; }

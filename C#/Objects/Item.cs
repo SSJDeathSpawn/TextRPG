@@ -1,5 +1,4 @@
 using System;
-using TextRPG.Data.Registry;
 using TextRPG.Living;
 
 namespace TextRPG.Objects {
@@ -21,10 +20,6 @@ namespace TextRPG.Objects {
             this.oneUse = false;
             this.timesUsable = timesUsable;
             this.itemRarity = itemRarity;
-        }
-
-        public override void register() {
-            base.register();
         }
 
     }

@@ -1,8 +1,7 @@
 using TextRPG.Living;
-using TextRPG.Data.Registry;
 
 namespace TextRPG.Story {
-    public abstract class Quest: IRegistryItem {
+    public abstract class Quest {
         public Character npc { get; set; }
         public QuestImportance importance { get; set; }
         public QuestType type { get; set; }
@@ -10,10 +9,6 @@ namespace TextRPG.Story {
         public Quest(Character npc, QuestImportance importance, QuestType type) {
             this.npc = npc;
             this.importance = importance;
-        }
-
-        public void register() {
-            
         }
     }
 

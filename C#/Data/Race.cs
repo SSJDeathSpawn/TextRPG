@@ -1,14 +1,14 @@
 using System;
 using System.Collections.Generic;
-using TextRPG.Data.Registry;
 
 namespace TextRPG.Data {
-    public class Race: IRegistryItem{
+    public class Race{
         public string name { get; set; }
         public string desc { get; set; }
 
-        public void register() {
-            
+        public Race(string name, string desc) {
+            this.name = name;
+            this.desc = desc;
         }
     }
 }

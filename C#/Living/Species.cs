@@ -1,10 +1,9 @@
 using System;
 using System.Collections.Generic;
 using TextRPG.Data.Statistics;
-using TextRPG.Data.Registry;
 
 namespace TextRPG.Living {
-    public class Species: IRegistryItem {
+    public class Species {
         public string commonName { get; set; }
         public List<string> extendedNames { get; set; }
         public List<Mob> madeMobs { get; set; } = new List<Mob>();

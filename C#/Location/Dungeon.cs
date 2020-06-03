@@ -43,10 +43,5 @@ namespace TextRPG.Location {
             } 
             return toReturn;
         }
-
-        public override void register() {
-            base.register();
-        }
-
     }
 }

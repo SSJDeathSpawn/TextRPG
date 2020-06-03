@@ -1,9 +1,8 @@
 using System;
 using System.Collections.Generic;
-using TextRPG.Data.Registry;
 
 namespace TextRPG.Living.Ailments {
-    public class Status: IRegistryItem {
+    public class Status{
         public StatusType statusType { get; set; }
         public string name { get; set; }
         public Action<Character,int> doWork { get; set; }

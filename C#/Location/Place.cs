@@ -1,9 +1,8 @@
 using System;
 using System.Collections.Generic;
-using TextRPG.Data.Registry;
 
 namespace TextRPG.Location {
-    public class Place: IRegistryItem {
+    public class Place {
         public string name { get; set; }
         public Connection connection { get; set; }
         public string desc { get; set; }
@@ -18,10 +17,6 @@ namespace TextRPG.Location {
             this.name = name;
             this.connection = new Connection(null);
             this.desc = desc; 
-        }   
-
-        public virtual void register() {
-
         }
     }
 }
