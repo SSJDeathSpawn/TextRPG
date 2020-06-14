@@ -7,7 +7,7 @@ namespace TextRPG.Living {
         
         public AttackStats stats { get; set; }
 
-        public CharacterUpgraded(string name, Race race, AttackStats stats) : base(name, race){
+        public CharacterUpgraded(string name, Race race, Gender gender, AttackStats stats) : base(name, race, gender){
             this.stats = stats;
         }
     }

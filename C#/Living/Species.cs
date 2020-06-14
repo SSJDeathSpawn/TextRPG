@@ -16,11 +16,5 @@ namespace TextRPG.Living {
                 madeMobs.Add(new Mob(this.extendedNames[i] + this.commonName[i], lvlRanges[i].Item1, lvlRanges[i].Item2, descs[i], stats[i]));
             }
         }
-
-        public void register() {
-            foreach(Mob mob in madeMobs) {
-                mob.register();
-            }
-        }
     }
 }

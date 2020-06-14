@@ -10,16 +10,20 @@ namespace TextRPG.Living {
         public string name { get; set; }
         public Race race { get; set; }
         public Place currentLocation { get; set; }
+        public Gender gender { get; set; }
 
-        public Character(string name, Race race) {
+        public Character(string name, Race race, Gender gender) {
             this.name = name;
             this.race = race;
+            this.gender = gender;
         }
+    }
 
-        public virtual void register() {
-
-        }
-
+    public enum Gender {
+        MALE,
+        FEMALE,
+        ANDROGYNOUS,
+        DONTCARE
     }
 
 }
